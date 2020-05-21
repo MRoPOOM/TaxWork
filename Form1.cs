@@ -90,12 +90,9 @@ namespace WindowsFormsApp1
         {
             if (sender == single)
             {
-                nocouple.Checked = false;
-                couplemoney.Checked = false;
-                couplenomoney.Checked = false;
                 relationship.Enabled = false;
-                pregnant.Enabled = false;
-                mychild.Enabled = false;
+                pregnant.Enabled = true;
+                mychild.Enabled = true;
                 relationshipbox.Enabled = false;
             }
         }
